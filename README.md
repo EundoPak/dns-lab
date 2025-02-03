@@ -54,5 +54,12 @@ Run the command "ipconfig /flushdns" in PowerShell, running this command will cl
 
 ![14](https://github.com/user-attachments/assets/6317cccc-4828-47a5-8335-a4796514dc9c)
 ![15](https://github.com/user-attachments/assets/efb68242-a438-4f7d-b151-37142faec4b9)
+</p>
+<p>
+<h2>Creating a CNAME record</h2>
 
+Create a new CNAME record in our DNS Manager by right clicking and select "New Alias (CNAME)...". Make the alias name "search" and set "www.google.com" as our FQDN, click OK. When we ping the alias name "search", it will ping Google's IP Address. Back on Client 1, ping "search" and observe.
+
+![16](https://github.com/user-attachments/assets/833fdb2b-bf4a-44f3-8fea-01de27893542)
+![17](https://github.com/user-attachments/assets/d7bdcabd-ffc3-4213-b28d-edbefea9cb82)
 </p>
